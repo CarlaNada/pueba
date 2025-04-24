@@ -1,6 +1,7 @@
 # Mi primer repositorio
-
-
-ya hice mi rama tremendo esto esta bueno 
-Autor: 
-Mateo
+colaboradores:
+Carla Nadalig Dutto
+Benjamin De Lauro
+Mateo Urquiza
+Esteban Rodriguez
+Sebastian Maldonado
