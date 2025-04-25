@@ -6,4 +6,4 @@ Mateo Urquiza
 Esteban Rodriguez
 Sebastian Maldonado
 
-El esteban es gay
+JJJJJJJJJJJJ
