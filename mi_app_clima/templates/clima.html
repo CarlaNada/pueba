@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block contenido %}
+<h1>Clima actual en {{ ciudad }}</h1>
+<ul>
+    <li><strong>Temperatura:</strong> {{ clima.temperature }} °C</li>
+    <li><strong>Viento:</strong> {{ clima.windspeed }} km/h</li>
+    <li><strong>Dirección del viento:</strong> {{ clima.winddirection }}°</li>
+</ul>
+<a href="{{ url_for('index') }}">Volver a la lista</a>
+{% endblock %}
