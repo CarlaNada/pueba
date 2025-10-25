@@ -1,0 +1,72 @@
+# Trabajo Grupal — Servidores, Dominios y Proveedores
+
+1️⃣ COMPARATIVA DE SERVIDORES
+
+- Tipo de Servidor: Dedicado
+- Descripción: Servidor físico exclusivo para un cliente. Todo el hardware es tuyo (CPU, RAM, disco).
+- Ejemplo real: MercadoLibre, bancos o e-commerce grandes.
+- Ventajas: Máximo rendimiento, Control total, Alta seguridad
+- Desventajas: Costoso, Mantenimiento manual, Escalabilidad lenta (hardware físico)
+- Uso recomendado: Empresas grandes, sistemas críticos, apps con alto tráfico
+- Conclusión: Solo tiene sentido en entornos empresariales con control total
+
+- Tipo de Servidor: VPS (Virtual Private Server)
+- Descripción: Un servidor físico dividido en varios servidores virtuales aislados.
+- Ejemplo real: Un desarrollador alojando su API en DigitalOcean o Linode.
+- Ventajas: Más económico, Control de entorno, Buen equilibrio costo/rendimiento
+- Desventajas: Recursos compartidos (puede bajar rendimiento)
+- Uso recomendado: Proyectos medianos, pruebas, sitios web en producción pequeña
+- Conclusión: Para proyectos pequeños o educativos
+
+- Tipo de Servidor: Cloud (Nube)
+- Descripción: Infraestructura distribuida: los recursos se asignan dinámicamente entre múltiples servidores.
+- Ejemplo real: Netflix, Spotify, plataformas que escalan según demanda.
+- Ventajas: Escalabilidad automática, Pago por uso, Alta disponibilidad
+- Desventajas: Costos variables, Dependencia del proveedor
+- Uso recomendado: Apps con usuarios variables, startups, SaaS, streaming
+- Conclusión: Para grandes cargas o producción profesional
+
+2️⃣ SELECCION DE DOMINIOS (Freenom)
+
+Freenom permite registrar dominios gratuitos con extensiones: `.tk`, `.ml`, `.ga`, `.cf`, `.gq`.
+
+Paso a paso:
+1. Ir a https://www.freenom.com
+2. Buscar nombre del proyecto (por ejemplo: `oasis-hotel` o `devops-lab`).
+3. Elegir una extensión gratuita.
+4. Guardar o anotar el dominio elegido.
+5. (Opcional) Apuntar el dominio a tu IP pública o servicio VPS usando registros DNS tipo A o CNAME.
+
+Posibles nombres para proyecto:
+
+| Proyecto            | Posible dominio Freenom   |
+| ------------------- | ------------------------- |
+| Oasis Hotel & Spa   | `oasishotel.tk`           |
+| Proyecto DevOps     | `devops-lab.ga`           |
+| Portafolio          | `portfoliodev.cf`         |
+| Proyecto Full Stack | `stackteam.tk`            |
+
+
+3️⃣ INVESTIGACION DE PROVEEDORES (VPS / Cloud)
+
+- Proveedor: DigitalOcean
+- Tipo: VPS / Cloud 
+- Plan gratuito / básico: No tiene plan 100% gratis, pero da crédito de $200 por 60 días.
+- Especificaciones: 1 vCPU, 1 GB RAM, 25 GB SSD
+- Costo mensual aprox: desde $5 USD/mes
+- Observaciones: Fácil de usar, panel intuitivo, docs excelentes.
+
+- Proveedor: AWS (Amazon Web Services)
+- Tipo: Cloud
+- Plan gratuito / básico: Free Tier 12 meses: EC2 micro + RDS + S3
+- Especificaciones: 1 vCPU, 1 GB RAM, 30 GB disco (EC2 t2.micro)
+- Costo mensual aprox: Gratis 12 meses, luego desde $3.50/mes
+- Observaciones: Ideal para aprender escalabilidad real. Requiere tarjeta.
+
+- Proveedor: Oracle Cloud Free Tier
+- Tipo: Cloud / VPS híbrido
+- Plan gratuito / básico: Free Tier permanente
+- Especificaciones: 2 CPU, 1 GB RAM, 50 GB almacenamiento
+- Costo mensual aprox: Gratis permanente (con límites)
+- Observaciones: Muy buena opción para DevOps educativo y proyectos estables.
+
